@@ -1,0 +1,18 @@
+
+by guy gueta
+
+==================
+=  Description:  =
+==================
+Here I present a program that implements merge-sort so that the
+size of the buffer of the RAM is limited to 50 MB.
+
+For using, make sure output.txt is exist and empty.
+For regular sorting, use this parameters:
+A inputFile output.txt columnToSort tempPath
+For example: A textFile output.txt 2 /Desktop
+
+For selecting (sub-string), use this parameters:
+B (or C)  inputFile output.txt columnToSort tempPath columnToSelect subStringToSelect
+For example: B textFile output.txt 2 /Desktop 1 ab
+
